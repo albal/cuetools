@@ -1,2 +1,2 @@
 # cuetools
-Dockerfile to create a image to work with ape and flace files
+Dockerfile to create an image to work with ape and flace files
