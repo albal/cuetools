@@ -8,6 +8,6 @@ RUN apt update && \
       cuetools \
       vim && \
     add-apt-repository -y ppa:flacon && \
-    apt- -y install flacon
+    apt -y install flacon
 ADD https://raw.githubusercontent.com/ysegorov/dotfiles/master/bin/cuesplit.sh /usr/local/bin/.
 RUN chmod +x /usr/local/bin/cuesplit.sh
