@@ -9,5 +9,5 @@ RUN apt update && \
       vim && \
     add-apt-repository -y ppa:flacon && \
     apt -y install flacon
-ADD . /usr/local/bin/.
+ADD *.sh /usr/local/bin/.
 RUN chmod +x /usr/local/bin/*.sh
